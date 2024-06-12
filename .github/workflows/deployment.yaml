@@ -6,6 +6,8 @@ on:
 
 jobs:
   deploy:
+    name: Deploy to Google App Engine
+
     permissions:
       contents: 'read'
       id-token: 'write'
