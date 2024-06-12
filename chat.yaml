@@ -1,5 +1,7 @@
 runtime: go120
 
+service: chat
+
 handlers:
   - url: /.*
     script: auto
