@@ -5,7 +5,8 @@ on:
     branches: [ deploy ]
 
 jobs:
-  Deploy to Google App Engine:
+  deploy:
+    -name: 'Deploy to Google App Engine'
 
     permissions:
       contents: 'read'
